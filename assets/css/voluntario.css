@@ -115,7 +115,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 15px;
+}
+
+#voluntario-artigo div{
+    flex: 1;
+    min-width: 450px;
 }
 
 #voluntario-artigo p{
@@ -124,11 +130,12 @@ main {
 }
 
 #voluntario-artigo figure{
-    width: 100%;
+    flex: 1;
+    min-width: 450px;
 }
 
 #voluntario-artigo figure img{
-    width: 450px;
+    width: 100%;
 }
 
 footer {
